@@ -263,10 +263,9 @@ def winning_team
      end
     end
     
+    binding.pry
+    
     game_hash[:away].each do |team, team_info|
-      
-      binding.pry
-      
     team_info[:players].each do |player|
       
      away_team_points += player[:points] 

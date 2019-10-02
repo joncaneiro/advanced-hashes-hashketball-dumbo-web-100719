@@ -323,7 +323,7 @@ def long_name_steals_a_ton
     most_steals = player[:steals]
     associated_player = player[:player_name] 
     
-    long_name == associated_player
+    if long_name == associated_player
 
    end
   end

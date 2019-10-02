@@ -228,7 +228,7 @@ def big_shoe_rebounds
   return rebounds
 end
 
-
+=begin
 def most_points_scored
   
    most_points = 0
@@ -248,3 +248,4 @@ def most_points_scored
  associated_player
 end
 
+=end

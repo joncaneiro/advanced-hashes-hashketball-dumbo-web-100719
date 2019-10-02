@@ -248,7 +248,6 @@ end
 
 # If you'd like to work on the bonus, uncomment these tests.
 
-=begin
 
 describe 'bonus' do
 
@@ -259,6 +258,8 @@ describe 'bonus' do
     end
 
   end
+
+=begin
 
   describe '#winning_team' do
 

@@ -324,7 +324,10 @@ def long_name_steals_a_ton
     associated_player = player[:player_name] 
     
     if long_name == associated_player
-
+     
+     associated_player
+     
+    end 
    end
   end
  end

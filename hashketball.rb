@@ -267,10 +267,12 @@ def winning_team
     team_info[:players].each do |player|
       
      away_team_points += player[:points] 
+     
+     binding.pry
       
     end
    end
-     binding.pry
+   
      if home_team_points > away_team_points
        
        game_hash[:home][:team_name]
